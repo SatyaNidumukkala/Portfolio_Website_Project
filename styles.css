@@ -1,0 +1,101 @@
+/* Ensure consistent box model */
+* {
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 2000px; /* Added height for scrolling */
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    background-color: #555; /* Background color for name */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    /* Removed underline */
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    color: #007bff; /* Optional: Change color on hover (blue) */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+.back-to-top:focus {
+    outline: none;
+}
